@@ -1,0 +1,6 @@
+{"type": "user", "message": {"role": "user", "content": "synthetic task"}}
+{"type": "assistant", "message": {"id": "msg_B1", "model": "claude-haiku-5-5", "role": "assistant", "content": [{"type": "text", "text": "thinking"}], "usage": {"input_tokens": 3, "cache_creation_input_tokens": 59000, "cache_read_input_tokens": 0, "output_tokens": 30}}}
+{"type": "assistant", "message": {"id": "msg_B1", "model": "claude-haiku-5-5", "role": "assistant", "content": [{"type": "tool_use", "id": "toolu_B1", "name": "Read", "input": {}}], "usage": {"input_tokens": 3, "cache_creation_input_tokens": 59000, "cache_read_input_tokens": 0, "output_tokens": 300}}}
+{"type": "assistant", "message": {"id": "msg_B2", "model": "claude-haiku-5-5", "role": "assistant", "content": [{"type": "text", "text": "thinking"}], "usage": {"input_tokens": 2, "cache_creation_input_tokens": 3000, "cache_read_input_tokens": 59000, "output_tokens": 50}}}
+{"type": "assistant", "message": {"id": "msg_B2", "model": "claude-haiku-5-5", "role": "assistant", "content": [{"type": "tool_use", "id": "toolu_B2", "name": "Read", "input": {}}], "usage": {"input_tokens": 2, "cache_creation_input_tokens": 3000, "cache_read_input_tokens": 59000, "output_tokens": 500}}}
+not json, skipped
